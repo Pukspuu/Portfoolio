@@ -1,0 +1,53 @@
+html {
+    font-size: 15px;
+}
+
+.pealkiri {
+    display: flex;
+    justify-content: center;
+}
+
+.konteiner {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(206, 210, 210);
+    width: 770px;
+    margin: auto;
+}
+
+.kast {
+    width: 400px;
+    height: 400px;
+    border-width: 1px;
+    border-color: rgb(141, 141, 141);
+    border-style: solid;
+
+
+}
+
+.sisu {
+    text-align: center;
+    font-size: 25px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+    background-color:  rgb(206, 210, 210);
+    border: 2px solid #e7e7e7;
+    color: black;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 1px 1px;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+
+    .buttonhall:hover {background-color: #fffefe;}
+
